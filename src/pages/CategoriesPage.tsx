@@ -58,7 +58,7 @@ export const CategoriesPage = () => {
       const data = await storageService.getCategories();
       setCategories(data);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to load categories");
+      setError(err instanceof Error ? err.message : "Cannot load categories");
     } finally {
       setLoading(false);
     }
