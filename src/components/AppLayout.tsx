@@ -17,7 +17,7 @@ export const AppLayout = () => {
       <AppBar position="sticky" elevation={0}>
         <Toolbar sx={{ justifyContent: "space-between" }}>
           <Typography variant="h6" fontWeight={700}>
-            Storage Management
+            Storage Management Page
           </Typography>
 
           <Stack direction="row" spacing={1} alignItems="center">
